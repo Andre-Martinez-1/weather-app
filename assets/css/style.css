@@ -1,0 +1,61 @@
+/* defining variables */
+:root {
+    --dark-grey: #393b44;
+    --grey-grey: #8d93ab;
+    --light-grey: #d6e0f0;
+    --off-white: #f1f3f8;
+    --purple: #5f306f;
+  }
+  
+  /* universal selector */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--grey-grey)
+  }
+  
+  /* element selectors */
+  body {
+    background-color: var(--dark-grey);
+  }
+  
+  li:hover {
+    border: solid 3px var(--dark-grey);
+  }
+  
+  /* class selectors */
+  .custom-jumbo {
+    background-color: var(--dark-grey);
+    background-image: url("supercell1.gif");
+    background-position: center;
+    background-size: cover;
+    color: var(--dark-grey);
+    border-radius: 0;
+    margin-bottom: -16px;
+  }
+  
+  .custom-search-div {
+    background-color: var(--light-grey);
+  }
+  
+  .custom-weather-info {
+    background-color: var(--purple);
+  }
+  
+  .btn {
+    background-color: var(--purple);
+  }
+  
+  /* UV levels  */
+  .favorable {
+    background-color: rgb(44, 255, 44);
+  }
+  
+  .moderate {
+    background-color: #faf4b7;
+  }
+  
+  .severe {
+    background-color: #e94560;
+  }
